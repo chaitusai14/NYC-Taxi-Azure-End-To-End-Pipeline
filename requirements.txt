@@ -1,0 +1,45 @@
+# Requirements for Azure Data Pipeline Project
+
+## Python Packages
+# Install using: pip install -r requirements.txt
+
+# Core Dependencies
+pyspark
+azure-storage-blob
+databricks-cli
+azure-identity
+requests
+pandas
+numpy
+
+# Power BI Integration
+pyodbc
+sqlalchemy
+
+# Development & Debugging
+ipykernel
+notebook
+jupyterlab
+
+## Databricks Cluster Configuration
+# Databricks Runtime: 10.4 LTS (or higher)
+# Node Type: Standard_DS3_v2 (Recommended for testing)
+# Libraries: Install pyspark and databricks-cli as cluster libraries
+
+## Azure Resources Required
+# - Azure Data Lake Storage (ADLS Gen2)
+# - Azure Data Factory (ADF)
+# - Azure Databricks
+# - Azure Key Vault (For storing secrets securely)
+
+## API & Data Source
+# Ensure access to the NYC Taxi Trip Data API
+# Placeholder for API URL: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+## Authentication & Access Control
+# Use Managed Identity or Service Principal for secure authentication
+# Assign RBAC roles to restrict ADLS and Databricks access
+
+## Additional Notes
+# - Ensure network firewall settings allow Databricks to ADLS communication
+# - Use Delta Lake for optimized data processing and storage
