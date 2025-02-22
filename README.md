@@ -25,6 +25,10 @@ This project is an end-to-end **Azure Data Pipeline** that ingests, processes, a
 
 The project follows a structured data pipeline:
 
+![ADF Pipeline](assets/adf-1.png)
+
+![ADF Pipeline](assets/adf-2.png)
+
 1. **Data Ingestion (Bronze Layer)**: Extracts Green Taxi trip data from an **API** and stores it in **Azure Data Lake Storage (ADLS Gen2)** in **Parquet format** using **Azure Data Factory**.
 2. **Data Processing (Silver Layer)**: Uses **Azure Databricks** to clean, transform, and standardize the raw data before saving it back to ADLS in **Parquet format**.
 3. **Data Analytics (Gold Layer)**: Converts the Silver layer Parquet files into **Delta tables** for optimized querying.
