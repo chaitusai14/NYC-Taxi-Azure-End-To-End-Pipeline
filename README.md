@@ -21,7 +21,7 @@ This project is an end-to-end **Azure Data Pipeline** that ingests, processes, a
 
 ## 🏗️ Architecture
 
-![Architecture Diagram] /Users/saichaitanya/Desktop/architecture.png
+![Architecture Diagram](assets/architecture.png)
 
 The project follows a structured data pipeline:
 
