@@ -15,7 +15,6 @@ This project is an end-to-end **Azure Data Pipeline** that ingests, processes, a
   - [Connect Power BI to Gold Layer](#4%EF%B8%8F⃣-connect-power-bi-to-gold-layer)
 - [Dataset API URL](#-dataset-api-url)
 - [Key Insights & Future Enhancements](#-key-insights--future-enhancements)
-- [License](#-license)
 - [Contributing](#-contributing)
 - [Contact](#-contact)
 
