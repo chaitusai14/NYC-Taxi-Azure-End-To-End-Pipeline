@@ -69,7 +69,7 @@ Run them in Databricks with appropriate configurations.
 - Load Gold layer Delta tables and design dashboards.
 
 ## 🌐 Dataset API URL
-**Placeholder for Dataset API URL:** `https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page`
+**Dataset API URL:** [NYC Taxi Trip Data API](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 ## 📊 Key Insights & Future Enhancements
 - **Current Focus**: Creating interactive **Power BI dashboard** for real-time analysis.
